@@ -1,0 +1,6 @@
+Calling LCM method with values 3 and 4 which should return 12
+Returned: 12
+Calling LCM method with values 36 and 12 which should return 36
+Returned 36
+Calling LCM method with values 12 and 48 which should return 48
+Returned: 48

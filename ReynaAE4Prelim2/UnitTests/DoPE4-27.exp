@@ -1,0 +1,33 @@
+Test program DoPE4-27.cpp
+Calling arithmetic operator ++ (Post)
+
+--------#27 Test Case 1--------
+expected output: integer starts at 0 and becomes 1
+--------End of #27 test 1--------
+
+--------#27 Test Case 2--------
+expected output: integer starts at -50 and becomes -49
+--------End of #27 test 2--------
+
+--------#27 Test Case 3--------
+expected output: integer starts at 2147483647 and becomes -2147483648
+--------End of #27 test 3--------
+
+--------#27 Test Case 4--------
+expected output:
+integer: -5" << endl;
+integer: -4" << endl;
+integer: -3" << endl;
+integer: -2" << endl;
+integer: -1" << endl;
+integer: 0" << endl;
+integer: 1" << endl;
+integer: 2" << endl;
+integer: 3" << endl;
+integer: 4" << endl;
+integer: 5" << endl;
+integer: 6" << endl;
+integer: 7" << endl;
+integer: 8" << endl;
+integer: 9" << endl;
+--------End of #27 test 4--------

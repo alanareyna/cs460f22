@@ -1,0 +1,4 @@
+Default constructor being called for rational...
+Testing >> operator - checking value for rational type:
+Type output returned value: 5/4
+Calling destructor as 'fraction' goes out of scope

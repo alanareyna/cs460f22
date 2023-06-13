@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  float n = 5;
+  float d = 0;
+
+  cout << "numerator: " << n << " denominator: " << d << endl;
+  cout << "result:" << n/d << endl;
+  return 0;
+}

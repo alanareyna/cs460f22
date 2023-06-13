@@ -1,0 +1,6 @@
+Test program BarrasAE4-32.cpp
+Calling additional constructor, rational (const double D), setting R1 to 2.5
+Testing the double converion operator
+R1: 5/2
+double(R1): 2.5
+Calling destructor as 'R1' goes out of scope

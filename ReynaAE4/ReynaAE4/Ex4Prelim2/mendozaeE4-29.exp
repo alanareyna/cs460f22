@@ -1,0 +1,5 @@
+Test program mendozaeE4-29.cpp
+Calling post decrement operator
+temp: 1.5
+Decimal: 0.5
+Calling destructor as 'Decimal' and 'temp' go out of scope

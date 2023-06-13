@@ -1,0 +1,58 @@
+(define (reciprocal n)
+ (if (and (number? n) (not (= n 0)))
+ (/ 1 n)
+ 'invalid_parameter
+ )
+ )
+
+(define (square n)
+ (* n n)
+ )
+
+(define (list_copy ls)
+  (if (list? ls)
+      ls
+      'list_copy1_requires_a_list_argument
+  )
+  )
+
+(define (odd_copy ls)
+ (if (list? ls)
+ (if (null? ls)
+ '()
+(cons (car ls) (list_copy2 (cdr ls)))
+ )
+'list_copy2_requires_a_list_argument
+ )
+)
+
+(define (even_copy mylist)
+  (if (list? mylist)
+      (if (null? mylist)
+	  '()
+	  (cons (car(cadr(mylist)))mylist) (even_copy(cdr(mylist)))
+	  'list_copy_requires_a_list_argument
+	  )
+      )
+  )
+
+(define (list_sum mylist)
+  (if (list? mylist)
+      (if (number? mylist)
+	  (+(list_sum(cdr mylist) (car(mylist))) '0)
+	  )
+      )
+  )
+
+
+(define (last mylist)
+  (if (list? mylist)
+      (if (null? mylist)
+	  '()
+	  (car mylist)(last (cdr mylist)))
+      )
+  )
+
+
+(display (list_copy '(a b c)))
+(newline)

@@ -1,0 +1,9 @@
+Test program WhitmarshTE4-39.cpp
+Calling constructor with 1 / 3
+Calling output operator
+1/3
+output should be 1/3
+Calling reciprocal function
+3
+output should be 3
+Calling destructor as 'fraction' goes out of scope

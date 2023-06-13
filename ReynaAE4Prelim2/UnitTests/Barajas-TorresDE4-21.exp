@@ -1,0 +1,5 @@
+Test program Barajas_TorresDE4-21.cpp
+Calling two alternate constructors
+Muliplying fraction and secondFraction, expecting 3/4
+Result is: 3/4
+Calling destructor as 'fraction' goes out of scope

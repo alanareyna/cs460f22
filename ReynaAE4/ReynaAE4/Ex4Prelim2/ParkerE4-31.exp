@@ -1,0 +1,4 @@
+Test program subidE4-31.cpp
+Calling constructor as 2/4
+Calling float method which should return 0.500000
+Returned value: 0.500000

@@ -1,0 +1,10 @@
+Test program Demeter-WillisonLE4-6.cpp
+Calling (numerator, denominator) constructor (occurs for each new rational tested)
+Calling output operator on rational(1,2)
+1/2
+Calling output operator on rational(-1,2)
+-1/2
+Calling default constructor
+Calling output operator on default rational (0)
+0
+Calling destructor as 'fraction' goes out of scope

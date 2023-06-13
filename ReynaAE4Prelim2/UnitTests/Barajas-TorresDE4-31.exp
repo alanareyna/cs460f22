@@ -1,0 +1,5 @@
+Test program Barajas_TorresDE4-31.cpp
+Calling alternate constructor, assigning 3 and 2
+Testing float conversion, expecting 1.5
+Result is: 1.5
+Calling destructor as 'fraction' goes out of scope

@@ -1,0 +1,8 @@
+Test program MckayRE4-38.cpp
+Calling int, int constructor with 9/12
+Calling output operator
+3/4
+Calling the reduce member function
+Calling output operator
+3/4
+Calling destructor as 'fraction' goes out of scope

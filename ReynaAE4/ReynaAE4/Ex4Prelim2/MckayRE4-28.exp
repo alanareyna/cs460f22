@@ -1,0 +1,6 @@
+Test program MckayRE4-28.cpp
+Calling int, int constructor with 7/5
+Calling predecrement operator
+Calling output operator
+2/5
+Calling destructor as 'fraction' goes out of scope

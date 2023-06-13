@@ -1,0 +1,6 @@
+Test program HollandCE4-11.cpp
+Calling default constructor
+setting fraction.numerator() = 2
+calling fraction.numerator()
+2
+Calling destructor as 'fraction' goes out of scope

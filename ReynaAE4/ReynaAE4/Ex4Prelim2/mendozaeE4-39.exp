@@ -1,0 +1,6 @@
+Test program mendozaeE4-39.cpp
+Calling input operator
+Calling output operator & reciprocal method
+reciprocal(not reduced):  6/24
+reciprocal(reduced): 1/4
+Calling destructor as 'fraction' goes out of scope

@@ -1,0 +1,269 @@
+Exercise 3 Answers
+Name: Alana Reyna 
+1. (+ 2 5) --> 7
+   (- 5.0 0.5) --> 4.5
+   (* 5. .5) --> 2.5
+   (/ 1.5 2.3) --> 0.6521739130434783
+   (+ 3/4 5/3) --> 29/12
+   (-(* 2 2/5)(/ 2 5))
+2. (+(* 1.2 (- 2 1/3)) -8.7)
+   (/(+ 2/3 2/9)(- 5/1 2/3))
+   (+ 1 (/ 1 (+ 2 (/ 1 (+ 1 1/2)))))
+   (* 1 (* -2 (* 3 (* -2 (* 5 (* -6 (* 7)))))))
+   (+ 3/4 (/ (* 5/8 1/2) 4/5))
+   
+
+3.	---------------------------------------------
+	| +        | integer  | fraction | real     |
+	---------------------------------------------
+	| integer  | integer  | fraction | real     |
+	---------------------------------------------
+	| fraction | fraction | fraction | real     |
+	---------------------------------------------
+	| real     | real     |  real    | real     |
+	---------------------------------------------
+	
+4.	---------------------------------------------
+	| -        | integer  | fraction | real     |
+	---------------------------------------------
+	| integer  | integer  | fraction | real     |
+	---------------------------------------------
+	| fraction | fraction | fraction | real     |
+	---------------------------------------------
+	| real     | real     | real     | real     |
+	---------------------------------------------
+
+	---------------------------------------------
+	| *        | integer  | fraction | real     |
+	---------------------------------------------
+	| integer  | integer  | fraction | real     |
+	---------------------------------------------
+	| fraction | fraction | fraction | real     |
+	---------------------------------------------
+	| real     | real     | real     | real     |
+	---------------------------------------------
+
+	---------------------------------------------
+	| /        | integer  | fraction | real     |
+	---------------------------------------------
+	| integer  | integer  | fraction | real     |
+	---------------------------------------------
+	| fraction | fraction | fraction | real     |
+	---------------------------------------------
+	| real     | real     | real     | real     |
+	---------------------------------------------
+
+5. 
+   (car '(a b c)) --> a
+   (cdr '(a b c)) --> (b c)
+   (cons 'a '(b c)) --> (a b c)
+   (cons '(a b) '(c d)) --> ((a b) c d)
+   (car '((1 2) (3 4) (5 6))) --> (1 2)
+   (cdr '((1 2) (3 4) (5 6))) --> ((3 4) (5 6))
+   (cons '55 '((1 2) (3 4) (5 6))) --> (55 (1 2) (3 4) (5 6))
+   (cons 55 '((1 2) (3 4) (5 6))) --> (55 (1 2) (3 4) (5 6))
+   (cons '(5 5) '((1 2) (3 4) (5 6))) --> ((5 5) (1 2) (3 4) (5 6))
+   (car '55) --> <unnamed port>:49:0: In procedure #<procedure 7fed7a7896a0 at <current input>:49:0 ()>:
+<unnamed port>:49:0: In procedure car: Wrong type argument in position 1 (expecting pair): 55
+   (car 'a) --> <unnamed port>:50:0: In procedure #<procedure 7fed7a7a1be0 at <current input>:50:0 ()>:
+<unnamed port>:50:0: In procedure car: Wrong type argument in position 1 (expecting pair): a
+   (cdr (a)) --> <unnamed port>:51:5: In procedure #<procedure 7fed7a7ba760 at <current input>:51:0 ()>:
+<unnamed port>:51:5: In procedure module-lookup: Unbound variable: a
+   (cdr 'a) --> <unnamed port>:52:0: In procedure #<procedure 7fed7a536740 at <current input>:52:0 ()>:
+<unnamed port>:52:0: In procedure cdr: Wrong type argument in position 1 (expecting pair): a
+   (car (a b c)) --> ;;; <stdin>:53:5: warning: possibly unbound variable `a'
+;;; <stdin>:53:5: warning: possibly unbound variable `b'
+;;; <stdin>:53:5: warning: possibly unbound variable `c'
+<unnamed port>:53:5: In procedure #<procedure 7fed7acb6fa0 at <current input>:53:0 ()>:
+<unnamed port>:53:5: In procedure module-lookup: Unbound variable: a
+   (cdr (a b c)) --> ;;; <stdin>:54:5: warning: possibly unbound variable `a'
+;;; <stdin>:54:5: warning: possibly unbound variable `b'
+;;; <stdin>:54:5: warning: possibly unbound variable `c'
+<unnamed port>:54:5: In procedure #<procedure 7fed7a59b0e0 at <current input>:54:0 ()>:
+<unnamed port>:54:5: In procedure module-lookup: Unbound variable: a
+   (cons '(b c) 'a) --> ((b c) . a)
+   (cons 5 (a b c)) --> ;;; <stdin>:56:8: warning: possibly unbound variable `a'
+;;; <stdin>:56:8: warning: possibly unbound variable `b'
+;;; <stdin>:56:8: warning: possibly unbound variable `c'
+<unnamed port>:56:8: In procedure #<procedure 7fed7a5d9f40 at <current input>:56:0 ()>:
+<unnamed port>:56:8: In procedure module-lookup: Unbound variable: a
+
+6. car: prints the first value of the set
+   cdr: prints everything but the first value of the set
+   cons: joins and prints two values or value sets
+   the ' symbol: tells scheme that the following set of information is data and not a function
+
+7. (cons (car '(a b c))
+(cdr '(d e f))) --> (a e f)
+
+8. (modulo 12 5) --> 2
+   (modulo (- 5 2) 7) --> 3
+   (modulo 12.4 2) --> <unnamed port>:83:0: In procedure #<procedure 7fed7a5d9c40 at <current input>:83:0 ()>:
+<unnamed port>:83:0: In procedure modulo: Wrong type argument in position 1: 12.4
+   (modulo (round 12.4) 2) --> 0
+
+9. (define (square n)
+ (* n n)
+)
+
+10. (square 5) --> 25
+    (square -200) --> 40000
+    (square 0.5) --> 0.25
+    (square -1/2) --> 1/4
+
+12. (reciprocal 10) --> 1/10
+    (reciprocal 1/10) --> 10
+    (reciprocal (reciprocal 1/10)) --> 1/10
+    (reciprocal 10.0) --> 0.1
+    (reciprocal 11.1) --> 0.0900900900900901
+    (reciprocal 0) --> /home/student/areyna/cs460f22/Ex3/test.ss.:2:8: In procedure reciprocal:
+/home/student/areyna/cs460f22/Ex3/test.ss.:2:8: Throw to key `numerical-overflow' with args `("/" "Numerical overflow" #f #f)'.
+    (reciprocal 'abc) --> /home/student/areyna/cs460f22/Ex3/test.ss.:2:8: In procedure reciprocal:
+/home/student/areyna/cs460f22/Ex3/test.ss.:2:8: In procedure /: Wrong type: abc
+
+13. (reciprocal 10) --> 1/10
+    (reciprocal 1/10) --> 10
+    (reciprocal (reciprocal 1/10)) --> 1/10
+    (reciprocal 10.0) --> 0.1
+    (reciprocal 11.1) --> 0.0900900900900901
+    (reciprocal 0) --> invalid_parameter
+    (reciprocal 'abc) --> invalid_parameter
+   
+14. command: (reciprocal 10) (square 5)
+    result: $1 = 1/10
+    	    $2 = 25
+
+    command: (reciprocal 'abc) (square 0.6)
+    result: $4 = invalid_parameter
+    	    $5 = 0.36
+
+15. command: (* (reciprocal 10) (square 5))
+    result: $6 = 5/2
+
+    command: (+ (reciprocal 10) (square 5))
+    result: $7 = 251/10
+
+16. (number? 5) --> $8 = #t
+    (number? '5) --> $9 = #t
+    (number? 'a) --> $10 = #f
+    (number? '(1 2 3)) --> $11 = #f
+    (number? (car '(1 2 3))) --> $12 = #t
+
+    returns #t:
+    command: (number? 6.6)
+    result: $13 = #t
+
+    returns #f:
+    command: (number? 'abc)
+    result: $14 = #f
+
+    Yes, my predictions were accurate. The number? function returns #t(true) if given an integer, real number, or a fraction. It will return #f(false) if given an alphabet or symbol as input.
+
+17. (symbol? 5) --> #f
+    (symbol? '5) --> #f
+    (symbol? 'a) --> #t
+    (symbol? '(1 2 3)) --> #f
+    (symbol? (car '(1 2 3))) --> #f
+
+    returns #t:
+    command: (symbol? '(apple)) 
+    result: #f
+    command: (symbol? 'apple)
+    result: #t
+
+    returns #f:
+    command: (symbol? '1234)
+    result: #f
+    command: (symbol? '55a)
+    result: #t
+
+    No, my predictions were no accurate. The symbol? function returns #t(true) if given an alphabet or special character after it follows '. The function will return #f(false) when a ( is followed after a '. It will also return #f if given a number value. It will always look at the first character that follows ' and if it is an alphabetical or special character, it will return true even if that character is followed by number values. Similarly, it will return false if the first character is a decimal, even though the following characters are alphabetical or special characters.
+    
+18. (list? 5) --> #f
+    (list? 'a) --> #f
+    (list? 'abcd) --> #f
+    (list? '(abcd)) --> #t
+    (list? '(1234)) --> #t
+    (list? '(+-#$)) --> #t
+
+    Based on my tests, the list? function will return true(#t) when given a list that is enclosed in parantheses no matter what values are stored in them. The list values can be numbers, alphabetical characters, or special characters. It will return true as long as that list is enclosed in parantheses. 
+
+19. (zero? 0) --> #t
+    (zero? 1) --> #f
+    (zero? 01) --> #f
+    (zero? 000.0) --> #t
+    (zero? 0*0) --> ;;; <stdin>:49:0: warning: possibly unbound variable `#{0*0}#'
+<unnamed port>:49:0: In procedure #<procedure 7f168a45b6c0 at <current input>:49:0 ()>:
+<unnamed port>:49:0: In procedure module-lookup: Unbound variable: #{0*0}#
+
+The zero? function returns true(#t) if the number value 0 is entered. If anything but a numerical value is entered, it will error. It detects anything that is not a zero. It will accept 0.0 as a real number but not a fraction of 0/0 or any other arthimetic. 
+
+20. (null? 0) --> #f
+    (null? 'NULL) --> #f
+    (null? '()) --> #t
+    (null? '(0)) --> #f
+
+    Based on my tests, the function null? only returns true when you pass it an empty list. If you don't include the ' or if put anything in the list other than white space, it will return an error.    Any other input also returns false.
+
+21. (char? 'a) --? #f
+    (char 1) --> #f
+    (char? '(c)) --> #f
+    (char? 'C) -->#f
+    (char? 'abc) --> #f
+
+    I was unable to find any input that would give me a true result. My predictions were that if we entered any alphabet character that wasn't a number, we would get a true (#t) output.  
+22. (string? 'a) --> #f
+    (string? 'ab) --> #f
+    (string? '123) --> #f
+    (string? 'abc 'def) --> ERROR
+
+    I was unable to find any input that would give me a true result. My prediction were that if we enterd any string of characters we would get a true (#t) output.
+
+24.
+positive
+negative
+equal
+The_value_is_1
+The_value_is_12
+none_of_the_above
+The_value_is_2
+negative
+equal
+The_value_is_1
+The_value_is_12
+none_of_the_above
+negative
+equal
+The_value_is_1
+The_value_is_12
+none_of_the_above
+The_value_is_2
+
+25. 
+(define (cond_ex_2 param)
+ (cond ((= param 1) 'The_value_is_1)
+ ((= param 2) 'The_value_is_2)
+ ((= param 12) 'The_value_is_12)
+ (else 'none_of_the_above)
+ )
+ )
+(define (cond_ex_3 choice value)
+  (cond ((= choice 1) value)
+        ((= choice 2) (* value value))
+        ((= choice 3) (/ 1 value))
+        (else 0)
+  )
+)
+
+(display (cond_ex_3 1 2)) --> 2
+(newline)
+(display (cond_ex_3 2 2)) --> 4
+(newline)
+(display (cond_ex_3 3 2)) --> 1/2
+(newline)
+(display (cond_ex_3 4 1)) --> 0
+(newline)
+
+26. Yes, the concept is the same. The parameter given determines the outcome of the function. This is the same with switch cases. Switch cases and the cond function both follow different functionality if the input is different. The function will work differently and interpret data differently based on what the parameter is. 
+
+29. It copies every other character in the list.

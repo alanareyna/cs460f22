@@ -1,0 +1,4 @@
+Test program berlinME4-13.cpp:
+Calling default constructor for two rationals...
+Original value of theRational: 0/1
+The new value of theRational: 0/1

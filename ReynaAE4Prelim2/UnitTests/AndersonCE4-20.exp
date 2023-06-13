@@ -1,0 +1,8 @@
+Test program AndersonCE4-20.cpp
+Calling #7 constructor
+Testing subtraction operator
+1/1
+1/1
+2/1
+1/2
+Calling destructor as 'r1', 'r2' and 'r3' go out of scope

@@ -1,0 +1,6 @@
+Test program coatsJE4-5.cpp
+Calling default constructor.
+Attempting to open coatsJE4-5.in file.
+If opened, reading contents into rational fraction
+fraction holds: 5/7
+Destructor called as 'fraction' goes out of scope

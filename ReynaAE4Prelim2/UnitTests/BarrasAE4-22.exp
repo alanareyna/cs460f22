@@ -1,0 +1,5 @@
+Test program BarrasAE4-22.cpp
+Calling additional constructor, rational (const int I), setting R1, R2, & R3 to 2
+Testing arithmetic operator *=
+R1 after R1 *= R2 *= R3: 8
+Calling destructor as 'R1', 'R2' and 'R3' goes out of scope

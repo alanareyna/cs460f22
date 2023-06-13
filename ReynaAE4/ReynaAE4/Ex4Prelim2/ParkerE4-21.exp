@@ -1,0 +1,4 @@
+Test program subidE4-21.cpp
+Calling constructors as 2/4 and 3/5
+Calling * operator
+Output should be 3/10 or 6/20 if unsimplified and is: 3/10

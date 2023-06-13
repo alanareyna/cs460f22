@@ -1,0 +1,8 @@
+Test program SamplesTE4-36.cpp
+Calling default constructor
+rational result;
+Testing round on 60/20
+3
+Testing round on -60/20
+-3
+Calling destructor as 'fraction' goes out of scope

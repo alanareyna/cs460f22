@@ -1,0 +1,7 @@
+Test program RosnerE4-15.cpp
+Calling default constructor
+fraction's values are 5/4 5/2 
+Calling bool operator == and comparing fraction's numerator to fraction2's numerator
+fraction's numerator is equal to fraction2's numerator
+The values of both fraction's numerators are: 5 5
+Calling destructor as 'fraction' goes out of scope

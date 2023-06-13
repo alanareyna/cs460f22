@@ -1,0 +1,25 @@
+(define (even_copy mylist)
+        (if (list? mylist)
+	    (if (null? mylist)
+		'()
+		(cons (car (cdr mylist)) (even_copy (cdr (cdr mylist))))
+		)
+	    'list_copy_requires_a_list_argument
+      
+	    )
+  )
+
+(define (list_copy2 ls)
+        (if (list? ls)
+             (if (null? ls)
+                 '()
+                 (cons (car ls) (list_copy2 (cdr ls)))
+                 )
+             'list_copy2_requires_a_list_argument
+             )
+        )
+
+(display (list_copy2 '(a b c)))
+(newline)
+(display (even_copy '(a b c d)))
+(newline)

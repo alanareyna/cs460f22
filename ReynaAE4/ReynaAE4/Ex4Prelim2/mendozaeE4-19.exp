@@ -1,0 +1,4 @@
+Test program mendozaeE4-19.cpp
+Calling output operator & Arithmetic operator /
+4.07650    
+Calling destructor as 'd1' and 'd2' go out of scope

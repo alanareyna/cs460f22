@@ -1,0 +1,7 @@
+Test program TellezAE4-18.cpp
+Calling constructor(4, 8)
+Calling output operator
+4/8
+Calling output operator with + of two fractions that sum to an int
+1
+Calling destructor as 'fraction' goes out of scope

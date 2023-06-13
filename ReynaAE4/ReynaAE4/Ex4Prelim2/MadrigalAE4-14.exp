@@ -1,0 +1,5 @@
+Test program MadrigalAE4-14.cpp
+r1: 2/4
+r2: 3/6
+Calling the >= operator with: r1 >= r2
+Result: r1 is >= r2

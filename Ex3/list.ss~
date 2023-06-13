@@ -1,0 +1,21 @@
+(define (list_copy1 ls)
+  (if (list? ls)
+      ls
+      'list_copy1_requires_a_list_argument
+  )
+)
+
+(define (list_copy2 ls)
+        (if (list? ls)
+             (if (null? ls)
+		 '()
+		 (cons (car ls) (list_copy2 (cdr ls)))
+		 )
+	     'list_copy2_requires_a_list_argument
+	     )
+	)
+
+
+(display (list_copy1 '(a)))
+(display (list_copy2 '(abc)))
+(newline)

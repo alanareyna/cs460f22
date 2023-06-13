@@ -1,0 +1,27 @@
+Test program DoPE4-7.cpp
+Calling additional constructor
+
+--------#7 Test Case 1--------
+Numerator: 50
+Denominator: 10
+Test fraction #1: 50/10
+The expected output is: 5
+--------End of #7 test 1--------
+
+--------#7 Test Case 2--------
+Numerator: -69
+Denominator: 9
+Test fraction #2: -69/9
+The expected output is: -64/9
+--------End of #7 test 2--------
+
+--------#7 Test Case 3--------
+Numerator: 2147483647
+Denominator: 1
+Test fraction #1: 2147483647
+The expected output is: 2147483647
+--------End of #7 test 3--------
+
+--------#7 Test Case 4--------
+The expected output is: An error message
+--------End of #7 test 4--------

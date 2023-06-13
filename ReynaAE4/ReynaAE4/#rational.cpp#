@@ -1,0 +1,30 @@
+/********************************************************************************
+* Assignment: Exercise 4 - rational class                                       *
+* Author:                                                                       *
+* Date: Fall 2022                                                               *
+* File: rational.cpp                                                            *
+*                                                                               *
+* Description: This file contains the                                           *
+********************************************************************************/
+
+#include "rational.h"
+
+#define DEBUG false
+#define debug if (DEBUG) cout
+
+/*******************************************************************************
+* Number: 1                                                                    *
+* Function: Default Constructor                                                *
+*                                                                              *
+* Parameters: None                                                             *
+* Return value: None                                                           *
+* Description: This function will initialze the value of the newly constructed *
+*              rational to 0 (zero).                                           *
+*******************************************************************************/
+
+rational::rational ()
+{
+	debug << "/* 1 */ Executing rational default constructor for "
+              << this << endl;
+}
+

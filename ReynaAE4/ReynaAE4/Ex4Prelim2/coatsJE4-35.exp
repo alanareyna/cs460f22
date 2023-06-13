@@ -1,0 +1,6 @@
+Test program coatsJE4-35.cpp
+Calling constructor with two ints.
+fraction: 24/2
+Calling round(10) on fraction
+new fraction: 10/1
+Destructor called as 'fraction' goes out of scope

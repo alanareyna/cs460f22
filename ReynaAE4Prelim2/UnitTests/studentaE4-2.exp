@@ -1,0 +1,7 @@
+Test program studentaE4-2.cpp
+Calling default constructor
+Calling copy constructor
+Calling output operator
+fraction1 = 0
+fraction2 = 0
+Calling destructor as 'fraction1' and 'fraction2' go out of scope

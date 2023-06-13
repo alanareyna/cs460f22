@@ -1,0 +1,5 @@
+Test program FlemingEE4-8.cpp
+Calling single int constructor
+Calling output operator
+10/1
+Calling destructor as 'fraction' goes out of scope

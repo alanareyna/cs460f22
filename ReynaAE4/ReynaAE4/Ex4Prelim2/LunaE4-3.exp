@@ -1,0 +1,13 @@
+Test program LunaE4-3.cpp
+Running hard coded unit tests
+-----------------------------
+Fraction Rational: 1/2
+Decimal Rational: 0.5
+
+Hard Coded Unit Tests Concluded! 
+
+Vector cleared / destructed 10 times
+
+Calling destructor as vars go out of scope
+
+Dynamically allocated rational var dynamically destructed

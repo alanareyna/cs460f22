@@ -1,0 +1,6 @@
+Testing the *= operator
+R1 is initialized as 4
+Multiplying current R1 with 2: 8
+Multiplying current R1 with 2: 16
+Multiplying current R1 with 2: 32
+

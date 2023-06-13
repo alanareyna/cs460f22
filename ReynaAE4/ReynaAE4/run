@@ -1,0 +1,56 @@
+#!/bin/tcsh
+
+rm -rf $1.tmp $1.exe 
+echo "=========== Executing test of Exercise 4 Prelim for " $1 "==========="
+echo
+echo "=========== Files submitted for " $1 "==========="
+echo
+ls -l $1.[cei]*
+echo
+echo "=========== Compiling " $1".cpp with rational class ==========="
+echo
+g++ $1.cpp rational.o -o $1.exe
+echo
+echo "=========== Executing " $1".cpp with rational class ==========="
+echo
+ls $1.in >& 4grep
+grep No 4grep > /dev/null
+set isin = $?
+if ($isin) then
+	timeout -v 5 ./$1.exe > $1.tmp < $1.in
+else
+	timeout -v 5 ./$1.exe > $1.tmp < empty.in
+endif
+echo
+echo "========== Listing differences for Exercise 4 Prelim test run " $2 " =========="
+echo "========== Lines preceded by < are from your output =========="
+echo "========== Lines preceded by > are from the expected output =========="
+echo
+diff -y $1.tmp $1.exp > $1.diff
+cat $1.diff
+echo
+echo "======= End of differences for Exercise 4 Prelim test run " $2 " ======="
+echo "======= Your input for Exercise 4 Prelim test run " $2 " ======="
+echo
+ls $1.in >& 4grep
+grep No 4grep > /dev/null
+set isin = $?
+if ($isin) then
+	cat $1.in
+else
+	echo "No input provided"
+endif
+echo
+echo "======= End of input for Exercise 4 Prelim test run " $2 " ======="
+echo
+echo "======= Output of Exercise 4 Prelim test run " $2 " ======="
+echo
+cat $1.tmp
+echo
+echo "======= End of Output of Exercise 4 Prelim test run " $2 " ======="
+echo
+echo "======= Your expected output of Exercise 4 Prelim test run " $2 " ======="
+echo
+cat $1.exp
+echo
+echo "======= End of expected output of Exercise 4 Prelim test run " $2 " ======="

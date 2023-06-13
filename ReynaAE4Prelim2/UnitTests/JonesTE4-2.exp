@@ -1,0 +1,5 @@
+Testing copy constructor
+2 : R1
+4 : R2
+6 : R3, should be R1 + R2
+

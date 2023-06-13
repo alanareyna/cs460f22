@@ -1,0 +1,5 @@
+Test program coatsJE4-15.cpp
+Calling default constructor.
+Calling constructor with two ints.
+fraction: 0/1 is not equal to fraction2: 124/258
+Destructor called as 'fraction' and 'fraction2' go out of scope

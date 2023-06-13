@@ -1,0 +1,6 @@
+Test program RosnerE4-25.cpp
+Calling default constructor
+fraction's values are 21/4 1/8
+Calling assignment operator /= on fraction /= fraction2
+Result is: 42
+Calling destructor as 'fraction' goes out of scope

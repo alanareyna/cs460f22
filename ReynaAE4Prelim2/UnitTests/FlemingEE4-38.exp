@@ -1,0 +1,8 @@
+Test program FlemingEE4-38.cpp
+Calling default constructor
+Calling output operator
+Value before reduce: 0
+Calling reduce function on rational 0/1
+Calling output operator
+0
+Calling destructor as 'fraction' goes out of scope

@@ -1,0 +1,5 @@
+Test program HollandCE4-31.cpp
+Creating r1 = 1/2
+calling float(r1)
+0.5
+Calling destructor as 'r1' and 'r1' go out of scope

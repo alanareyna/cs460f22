@@ -1,0 +1,9 @@
+Test program WhitmarshTE4-29.cpp
+Calling constructor with 2 / 3
+Calling output operator
+2/3
+output should be 2/3
+Calling -- (post) operator
+-1/3
+output should be -1/3
+Calling destructor as 'fraction' goes out of scope

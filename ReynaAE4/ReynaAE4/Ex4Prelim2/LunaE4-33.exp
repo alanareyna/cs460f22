@@ -1,0 +1,12 @@
+Test program LunaE4-33.cpp
+
+Running hard coded unit tests
+-----------------------------
+
+Fraction Rational as string: 1/2
+Decimal Rational as string: 0.5
+
+
+Hard Coded Unit Tests Concluded! 
+
+Calling destructor as all vars go out of scope

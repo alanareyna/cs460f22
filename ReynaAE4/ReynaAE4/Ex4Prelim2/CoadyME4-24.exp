@@ -1,0 +1,4 @@
+Test program CoadyME4-24.cpp
+Calling constructor with an integer argument
+Before -= operator called: 5
+After -= operator called: 4

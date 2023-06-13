@@ -1,0 +1,4 @@
+"Enter your numerator and denominator separated by a space:"
+"Calling constructor with values numerator = " << x << " and denominator = " << y << "..."
+"Calling constructor with values numerator = '1' and denominator = '2' ..."
+"Calling constructor with values numerator = 2.0 and denominator = 1.3 ..."

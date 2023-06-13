@@ -1,0 +1,6 @@
+Test program WhitmarshTE4-9.cpp
+Calling double constructor with 12.12 as the double
+Calling output operator
+303/25
+output should be 303/25
+Calling destructor as 'fraction' goes out of scope

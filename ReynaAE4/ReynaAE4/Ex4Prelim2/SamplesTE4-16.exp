@@ -1,0 +1,11 @@
+Test program SamplesTE4-16.cpp
+Comparing -3/2 < -1/2
+true
+Comparing -1/2 < -3/2
+false
+calling assignment operator
+Comparing 0/2 < 0/40
+false
+Comparing 0/40 < 0/2
+false
+Calling destructor as 'fraction' goes out of scope

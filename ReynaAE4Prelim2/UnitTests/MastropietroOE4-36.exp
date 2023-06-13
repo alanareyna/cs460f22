@@ -1,0 +1,7 @@
+Test Program MastropietroOE4-36.cpp
+Calling rational(int, int) Constructor four times
+Calling round( f0 ) with f0 = 60/20
+60/20
+Calling round( f1 ) with f1 = -60/20
+-60/20
+Calling destructor as f0-f4 go out of scope

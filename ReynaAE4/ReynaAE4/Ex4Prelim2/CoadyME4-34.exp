@@ -1,0 +1,4 @@
+Test program CoadyME4-34.cpp
+Calling constructor that takes 2 int arguments
+Testing round() on created object
+2

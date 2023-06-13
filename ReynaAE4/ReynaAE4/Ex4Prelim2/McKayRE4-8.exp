@@ -1,0 +1,5 @@
+Test program MckayRE4-8.cpp
+Calling int constructor with new and a value of 5
+Calling output operator
+5
+Calling destructor explicitly with free

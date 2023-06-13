@@ -1,0 +1,5 @@
+Test program RosnerE4-5.cpp
+Calling default constructor
+Calling input operator
+fraction: -109739369/13717421
+"Calling destructor as 'fraction' goes out of scope"

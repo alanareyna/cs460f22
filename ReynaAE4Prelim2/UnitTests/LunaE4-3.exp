@@ -1,0 +1,18 @@
+Test program LunaE4-3.cpp
+Running hard coded unit tests
+-----------------------------
+Calling Default constructor rational(const int, const int) with values 1 and 2
+Calling Default constructor rational(const double) with value 0.5
+Calling Default constructor rational(const int, const int) with values 1 and 2
+Calling copy constructor to assign default constructor to pointer rational variable
+Calling output operators (<<):
+Fraction Rational: 1/2
+Decimal Rational: 0.5
+
+
+Hard Coded Unit Tests Concluded! 
+
+
+Vector cleared / destructed 10 times
+Calling destructor as vars go out of scope
+Dynamically allocated rational var dynamically destructed

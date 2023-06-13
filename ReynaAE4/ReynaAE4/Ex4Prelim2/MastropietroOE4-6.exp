@@ -1,0 +1,9 @@
+
+Test Program MastropietroOE4-6.cpp
+Calling rational(int num, int denom) Constructor
+Calling rational(int num, int denom) Constructor
+Calling output operator on rational(-1, -1)
+f1: <f1>
+Calling output operator on rational(-1, -2)
+f2: <f2>
+Calling destructor as f1 and f2 go out of scope

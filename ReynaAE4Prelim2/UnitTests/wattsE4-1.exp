@@ -1,0 +1,5 @@
+Test program wattsE4-1.cpp
+Calling default constructor
+Calling output operator
+0
+Calling destructor as 'fraction' goes out of scope

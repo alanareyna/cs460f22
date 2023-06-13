@@ -1,0 +1,4 @@
+Test program HollandCE4-41.cpp
+calling fraction.LCM(12, 15)
+60
+Calling destructor as 'fraction' goes out of scope

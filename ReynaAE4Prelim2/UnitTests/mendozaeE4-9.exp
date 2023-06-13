@@ -1,0 +1,6 @@
+Test program mendozaeE4-9.cpp
+Calling input operator
+Calling rational (const double D) constructor
+Calling output operator
+fraction: 243587824.4567
+Calling destructor as 'D' and 'fraction' go out of scope

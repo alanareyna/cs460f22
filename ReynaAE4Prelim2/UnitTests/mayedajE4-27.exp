@@ -1,0 +1,6 @@
+Reduced r1 before increment: 1
+R1 after increment: 2
+Reduced r2 before increment: 1.0
+Reduced r2 after increment: 2.0
+Reduced r3 before increment: 1/2
+Reduced r3 after increment: 3/2

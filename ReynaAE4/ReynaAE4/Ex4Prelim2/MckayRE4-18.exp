@@ -1,0 +1,6 @@
+Test program MckayRE4-18.cpp
+Calling int, int constructor with 3/7
+Calling + operator on the same object 
+And calling the output operator on the result
+6/7
+Calling destructor as 'fraction' goes out of scope

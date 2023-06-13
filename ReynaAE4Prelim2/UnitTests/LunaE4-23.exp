@@ -1,0 +1,17 @@
+Test program LunaE4-23.cpp
+Calling default rational constructor (const int, const int) with values 1 and 2
+Calling default rational constructor (const double) with value 0.5
+Calling (+=) operator
+Calling default rational constructor (const int, const int) with values 3 and 2
+Calling logical operator (==): 
+Calling output operator (<<): 
+Resulting Fraction after += is 3/2 !
+Calling (+=) operator
+Calling default rational constructor (const double) with value 1.5
+Calling logical operator (==): 
+Calling output operator (<<): 
+Resulting Fraction after += is 1.5 !
+
+Hard Coded Unit Tests Concluded!
+
+Calling destructor as vars go out of scope

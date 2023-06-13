@@ -1,0 +1,5 @@
+Test program martinettiE4-25.cpp
+Calling default constructor
+Dividing fraction by fraction2...
+Result is 5/4
+Calling destructor as 'fraction' goes out of scope

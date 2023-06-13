@@ -1,0 +1,15 @@
+/******************************************************************
+ * * Assignment: Exercise 4 - rational Class Test Program. *
+ * * Author: Cody Grimes *
+ * * Date: October 2022 *
+ * * File: GrimesCE4-19.exp *
+ * * *
+ * * Description: This file contains output for file GrimesCE4-19.cpp testing the   *
+ * * division between two rational numbers
+ * ****************************************************************/
+
+"Test program GrimesCE4-19.cpp" 
+"Here is my first rational object: 2.5"
+"Here is the second rational object: 10.5"
+"This is the resulting division between the two rational objects above: 0.23809524"
+

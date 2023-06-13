@@ -1,0 +1,41 @@
+Total price is $5.00 (0 @ $32.00; 1 @ $4.00; 25 @ $0.04)
+1. Total price is $6.76 (0 @ $32.00; 1 @ $4.00; 144 @ $0.04) 
+
+Total price is $34.88 (1 @ $32.00; 0 @ $4.00; 72 @ $0.04)
+2. Total price is $54.76 (1 @ $32.00; 10 @ $4.00; 1369 @ $0.04)
+
+Total price is $17.08 (0 @ $32.00; 3 @ $4.00; 127 @ $0.04)
+3. Total price is $22.4 (0 @ $32.00; 4 @ $4.00; 560 @ $0.04)
+
+Total price is $5.06 (0 @ $32.40; 1 @ $4.05; 25 @ $0.04)
+4. Total price is $6.76 (0 @ $32.40; 1 @ $4.05; 144 @ $0.04)
+
+Total price is $35.32 (1 @ $32.40; 0 @ $4.05; 72 @ $0.04)
+5. Total price is $54.76 (1 @ $32.40; 10 @ $4.05; 1369 @ $0.04)
+
+Total price is $17.29 (0 @ $32.40; 3 @ $4.05; 127 @ $0.04)
+6. Total price is $22.40 (0 @ $32.40; 4 @ $4.05; 560 @ $0.04)
+
+Total price is $72.60 (1 @ $48.40; 4 @ $6.05; 0 @ $0.06)
+7. Total price is $112.32 (1 @ $48.40; 13 @ $6.05; 1872 @ $0.06)
+
+Total price is $19.08 (0 @ $48.00; 3 @ $6.00; 18 @ $0.06)
+8. Total price is $27.00 (0 @ $48.00; 3 @ $6.00; 450 @ $0.06)
+
+Total price is $19.03 (0 @ $48.02; 2 @ $6.00; 117 @ $0.06)
+9. Total price is $24.30 (0 @ $48.02; 2.8 @ $6.00; 405 @ $0.06)
+
+Total price is $68.82 (1 @ $48.00; 3 @ $6.00; 47 @ $0.06)
+10. Total price is $106.56 (1 @ $48.00; 12.3 @ $6.00; 1776 @ $0.06)
+
+Total price is $122.11 (2 @ $40.40; 8 @ $5.05; 18 @ $0.05)
+11. Total price is $188.10 (2.9 @ $40.40; 26.1 @ $5.05; 3762 @ $0.05)
+
+# Many of the general calculations for the total price and number of square yards/feet/inches were not accurate. I have gone ahead and changed them to the correct calculations.
+# I plan to modify the RoomData.cpp file to make the proper changes and get the program to make the correct calculations
+# equation for finding number of square yards, feet, and inches:
+# 1. convert input into inches
+# 2. multiply both values to get total square inch area 
+# 3. use total and divide by yards in inches (1296 inches), use whole number to determine how many square yards are needed
+# 4. multiply whole number ^ by number of yards to get leftover
+# 5. divide leftover

@@ -1,0 +1,7 @@
+Test program ReynaAE4-2.cpp
+Calling default constructor
+Calling output operator
+1.5
+Testing copy constructor
+1.5
+Calling destructor as 'R1' goes out of scope

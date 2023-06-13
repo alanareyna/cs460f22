@@ -1,0 +1,7 @@
+Test program AndersonCE4-40.cpp
+Calling default constructor
+Testing the GCD method
+10
+50
+17
+Calling destructor as 'fraction' goes out of scope

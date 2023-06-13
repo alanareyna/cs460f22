@@ -1,0 +1,15 @@
+/**********************************************************
+ * * Assignment: Exercise 4 - rational Class Test Program. *
+ * * Author: Cody Grimes *
+ * * * Date: October 2022 *
+ * * * File: GrimesCE4-29.exp *
+ * * * *
+ * * * Description: This file contains expeced output for GrimesCE4-29.cpp, *
+ * * * which tests the post decrement functionality of a rational class type * 
+ ******************************************************************/
+
+ "Test program GrimesCE4-29.cpp" 
+ "Here is the rational we have initially created: 4.5"
+ "Here is the ratinoal after we have decremented it: 3.5" 
+
+

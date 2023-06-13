@@ -1,0 +1,5 @@
+Test program Barajas_TorresDE4-41.cpp
+Calling alternate constructor
+Calling LCM friend function with input 2 and 6, expecting 6
+Result is: 6
+Calling destructor as 'fraction' goes out of scope

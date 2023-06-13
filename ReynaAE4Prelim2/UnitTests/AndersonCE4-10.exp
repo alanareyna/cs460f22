@@ -1,0 +1,8 @@
+Test Program AndersonCE4-10.cpp
+Calling #7 constructor
+Testing denominator function
+1
+2
+7
+10
+Calling destructor as 'r1', 'r2' and 'r3' go out of scope

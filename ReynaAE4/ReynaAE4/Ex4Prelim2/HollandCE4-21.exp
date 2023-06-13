@@ -1,0 +1,5 @@
+Test program HollandCE4-21.cpp
+Creating r1 = 1/2 and r2 = 3/10
+calling r1 * r2
+3/20
+Calling destructor as 'r1' and 'r1' go out of scope

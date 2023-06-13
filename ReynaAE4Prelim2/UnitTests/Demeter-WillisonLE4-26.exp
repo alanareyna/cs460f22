@@ -1,0 +1,6 @@
+Test program Demeter-WillisonLE4-26.cpp
+Calling (numerator, denominator) constructor and copy constructor
+Calling pre-increment on rational (1,1) and copying the result into another rational
+Original variable: 2/1
+Variable assigned to original fraction: 2/1
+alling destructor as 'fraction' and 'fraction_plus' goes out of scope

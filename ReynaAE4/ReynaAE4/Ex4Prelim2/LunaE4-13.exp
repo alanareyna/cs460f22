@@ -1,0 +1,9 @@
+Test program LunaE4-13.cpp
+
+Both are not the same!
+
+They are not the same!
+
+Hard Coded Unit Tests Concluded! 
+
+Calling destructor as 'fraction' and `fractionInDecimal` goes out of scope

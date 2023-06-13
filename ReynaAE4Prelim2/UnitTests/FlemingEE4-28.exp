@@ -1,0 +1,7 @@
+Test program FlemingEE4-28.cpp
+Calling two int constructor values 1,3
+Calling pre decrement and assigning Rational preFraction during pre decrement call
+Calling output operator
+Fraction is -2/3 After pre decrement
+Rational assigned during pre decrement is -2/3
+Calling destructor as 'fraction' and 'preFraction' goes out of scope

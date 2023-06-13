@@ -1,0 +1,13 @@
+Test program LunaE4-33.cpp
+Running hard coded unit tests
+-----------------------------
+Calling default rational constructor (const int, const int) with values 1 and 2
+Calling copy constructor (=) and to_string(const rational &) function
+Calling output operator (<<):
+Fraction Rational as string: 1/2
+
+
+Hard Coded Unit Tests Concluded! 
+
+
+Calling destructor as all vars go out of scope

@@ -1,0 +1,9 @@
+Test program LunaE4-23.cpp
+
+Resulting Fraction after += is 3/2 !
+
+Resulting Fraction after += is 1.5 !
+
+Hard Coded Unit Tests Concluded!
+
+Calling destructor as vars go out of scope

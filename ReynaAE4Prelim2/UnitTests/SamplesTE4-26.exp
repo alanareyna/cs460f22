@@ -1,0 +1,10 @@
+Test program SamplesTE4-26.cpp
+Calling int, int constructor
+Calling output operator
+fraction: 1/2
+Testing pre-iteration...
+fraction should equal 3/2
+fraction: 3/2
+Calling pre-increment on 14/13
+27/13
+Calling destructor as 'fraction' goes out of scope

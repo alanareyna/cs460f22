@@ -1,0 +1,5 @@
+Test program TellezAE4-8.cpp
+Calling constructor(int) (#8)
+Calling output operator
+4
+Calling destructor as 'fraction' goes out of scope

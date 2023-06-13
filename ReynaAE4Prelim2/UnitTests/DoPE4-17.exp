@@ -1,0 +1,34 @@
+Test program DoPE4-17.cpp
+Calling logical operator <=
+
+--------#17 Test Case 1--------
+testing the values 1 for R1's numerator and 2 for R1's denominator
+testing the values 10 for R2's numerator and 20 for R2's denominator
+the value of R1 is 1/2
+the value of R2 is 10/20
+The expected output is: the value of 1/2 is less than or equal to the value of 1/2
+--------End of #17 test 1--------
+
+--------#17 Test Case 2--------
+testing the values 6 for R3's numerator and 10 for R3's denominator
+testing the values 2 for R4's numerator and 5 for R4's denominator
+the value of R3 is 3/5
+the value of R4 is 2/5
+The expected output is: the value of 2/5 is less than or equal to the value of 3/5
+--------End of #17 test 2--------
+
+--------#17 Test Case 3--------
+testing the values 116 for R5's numerator and 580 for R5's denominator
+testing the values 7 for R6's numerator and 42 for R6's denominator
+the value of R5 is 1/5
+the value of R6 is 1/6
+The expected output is: the value of 1/6 is less than or equal to the value of 1/5
+--------End of #17 test 3--------
+
+--------#17 Test Case 4--------
+testing the values 4 for R7's numerator and -18 for R7's denominator
+testing the values 1 for R8's numerator and 48 for R8's denominator
+the value of R7 is -2/9
+the value of R8 is 1/48
+The expected output is: the value of -1/48 is less than or equal to the value of -2/9
+--------End of #17 test 4--------

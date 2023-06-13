@@ -1,0 +1,6 @@
+Test program RosnerE4-35.cpp
+Calling default constructor
+fraction's values are 2/3 7/8 
+Calling round(unsigned) function
+fraction2 was rounded to: 21/24
+Calling destructor as 'fraction' goes out of scope

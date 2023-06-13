@@ -1,0 +1,10 @@
+Test program ReynaAE4-12.cpp
+Calling default constructor
+Calling output operator
+1.5
+2.5
+3.5
+Testing not equal boolean operator
+Rational R1 does not equal Rational R2
+Rational R2 does not equal Rational R3
+

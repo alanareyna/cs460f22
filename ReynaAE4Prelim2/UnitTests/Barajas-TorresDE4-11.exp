@@ -1,0 +1,5 @@
+Test program Barajas_TorresDE4-11.cpp
+Calling default constructor
+Assigning fraction numerator to 4 initially
+Numerator is: 4
+Calling destructor as 'fraction' goes out of scope

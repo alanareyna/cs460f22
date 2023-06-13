@@ -1,0 +1,18 @@
+/****************************************************************
+* * Assignment: Exercise 4 - rational Class Test Program. *
+* * Author: Cody Grimes *
+* * Date: October 2022 *
+* * File: GrimesCE4-9.exp *
+* * *
+* * Description: This file contains the expected output for Grimes
+    GrimesCe4-9.cpp *
+* ****************************************************************/
+
+
+"Test program GrimesCE4-9.cpp"
+"Making a double which shoudl be 2.5"
+"Here is the double: 2.5"
+"Now using the parameterized constructor to initialize a rational-type object with our double value. We will be setting a rational pointer equal to a memory allocation of the rational-type"
+"Calling output operator on our rational pointer type to display our rational"
+"2.5"
+"Calling destructor as 'fraction' goes out of scope"

@@ -1,0 +1,4 @@
+Test program berlinME4-13.cpp:
+Calling default constructor for two rationals...
+Performing > comparison on the two rationals:
+theRational is not more than theOtherRational.

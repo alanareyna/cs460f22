@@ -1,0 +1,6 @@
+Test program TellezAE4-18.cpp
+Calling default constructor
+Calling constructor(7, 4)
+Setting tempFraction = to the pre decrement value of tempFraction
+3/4
+Calling destructor as 'fraction' goes out of scope

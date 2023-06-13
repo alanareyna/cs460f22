@@ -1,0 +1,5 @@
+Test program mendozaeE4-19.cpp
+Calling rational (const double D) constructor
+Calling output operator & Arithmetic operator /
+5 
+Calling destructor as 'num', 'denom', 'f1', and 'f2' go out of scope

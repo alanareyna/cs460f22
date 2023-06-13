@@ -1,0 +1,12 @@
+Test program LunaE4-13.cpp
+Calling Default rational constructor (const int, const int) with values 1 and 2
+Calling Default rational constructor (const double) with value 1.5
+Testing Logical Operator (>):
+Calling output stream (<<):
+1.5 is greater than 1/2
+
+
+Hard Coded Unit Tests Concluded! 
+
+
+Calling destructor as 'fraction' and `fractionInDecimal` goes out of scope

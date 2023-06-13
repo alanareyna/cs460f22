@@ -1,0 +1,4 @@
+Test program martinettiE4-15.cpp
+Calling default constructor
+Output of equal test for fraction and fraction2 is 0
+Calling destructor as 'fraction' goes out of scope

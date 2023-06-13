@@ -1,0 +1,6 @@
+Test program BarrasAE4-12.cpp
+Calling additional constructor, rational (const int I), setting R1 & R2 to 1 and R3 to 3
+Testing logical operator !=
+1 equals 1
+1 != 3
+Calling destructor as 'R1', 'R2' and 'R3' goes out of scope

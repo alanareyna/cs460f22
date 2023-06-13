@@ -1,0 +1,17 @@
+/********************************************************************
+* * * Assignment: Exercise 4 - rational Class Test Program. *
+ * * * Author: Cody Grimes *
+ * * * Date: October 2022 *
+ * * * File: GrimesCE4-39.cpp *
+ * * * *
+ * * * Description: This file contains C++ code to test the  *
+ * * * reduce function of a rational class type *
+ * * ****************************************************************/
+
+
+ "Test program GrimesCE4-39.cpp"
+ "We have given our rational class obejct a numerator of 10, and a denominator of 20"
+ "Calling reduce function on our rational class object" 
+ "Now we will display the reduced rational class object"
+ "1/2"
+

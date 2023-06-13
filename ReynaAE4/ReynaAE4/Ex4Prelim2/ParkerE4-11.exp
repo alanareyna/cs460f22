@@ -1,0 +1,6 @@
+Test program subidE4-11.cpp
+Calling constructor as 2/4
+Testing & numerator method
+Assigning 5 to numerator using mutator
+Testing numerator accessor after using mutator
+The fraction's numerator should be 5 and is: 5

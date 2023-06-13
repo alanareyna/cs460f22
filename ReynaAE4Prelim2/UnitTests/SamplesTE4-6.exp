@@ -1,0 +1,8 @@
+Test program SamplesTE4-6.cpp
+Calling int, int constructor
+Calling output operator on rational(1,1)
+1
+Calling int, int constructor
+Calling output operator on rational(20,4)
+5
+Calling destructor as 'fraction' goes out of scope

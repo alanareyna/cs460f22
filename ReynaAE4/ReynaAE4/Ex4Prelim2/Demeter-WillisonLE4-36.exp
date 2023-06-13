@@ -1,0 +1,6 @@
+Test program Demeter-WillisonLE4-36.cpp
+Calling (numerator, denominator) constructor (occurs once for each printed test)
+Testing round on 1/2
+1
+Testing round on -1/2
+0

@@ -1,0 +1,6 @@
+Test program MadrigalAE4-24.cpp
+r1: 3/4
+r2: 1/2
+Calling the -= operator with: r1 -= r2
+r1 is now: 1/4
+r2 remains: 1/2

@@ -1,0 +1,6 @@
+Test program BarrasAE4-2.cpp
+Calling additional constructor, rational (const int I), setting R1 to 2
+Testing copy constructor
+R1: 2/1
+R2 (copy): 2/1
+Calling destructor as 'R1' and 'R2' goes out of scope

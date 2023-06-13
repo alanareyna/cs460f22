@@ -1,0 +1,7 @@
+Test program FlemingEE4-18.cpp
+Calling int constructor with values 2, 3
+Calling int constructor with values 3, 4
+Calling addition operator with rationals 3/4, 2/3, also calling assignment operator
+Calling output operator
+17/12
+Calling destructor as 'fraction', 'adder', 'result' goes out of scope

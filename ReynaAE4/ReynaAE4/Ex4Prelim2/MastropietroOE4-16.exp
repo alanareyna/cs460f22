@@ -1,0 +1,8 @@
+Test Program MastropietroOE4-16.cpp
+Calling rational(int num, int denom) Constructor
+Calling rational(int num, int denom) Constructor
+1/2 < 3/2 evaluates to <1>
+3/2 < 1/2 evaluates to <0>
+20/40 < 3/2 evaluates to <1>
+3/2 < 20/40 evaluates to <0>
+Calling destructor as f1-f5 goes out of scope

@@ -1,0 +1,3 @@
+Test program berlinME4-3.cpp:
+Calling default constructor dynamically.
+Calling destructor on 'theRational' which was dynamically allocated.

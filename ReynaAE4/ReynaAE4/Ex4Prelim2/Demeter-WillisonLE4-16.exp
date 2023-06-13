@@ -1,0 +1,14 @@
+Test program Demeter-WillisonLE4-16.cpp
+Calling (numerator, denominator) constructor (occurs once for each printed test)
+Comparing 20/40 < 2/1
+true
+Comparing 2/1 < 20/40
+false
+Comparing -3/2 < 1/2
+true
+Comparing 1/2 < -3/2
+false
+Comparing 20/40 < 5/3
+true
+Comparing 5/3 < 20/40
+false

@@ -1,0 +1,7 @@
+Test program AndersonCE4-30.cpp
+Calling #7 constructor
+Testing integer conversion operator
+4
+10
+2
+Calling destructor as 'r1', 'r2' and 'r3' go out of scope

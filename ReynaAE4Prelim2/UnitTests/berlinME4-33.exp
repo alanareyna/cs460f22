@@ -1,0 +1,3 @@
+Test program berlinME4-33.cpp:
+Calling default constructor for rational...
+Outputting theRational after being converted into a string: 0/1
